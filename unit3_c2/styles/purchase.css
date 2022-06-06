@@ -1,0 +1,24 @@
+#navbar{
+    /* border: 2px solid saddlebrown; */
+    background-color: rgb(118, 188, 188);
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: auto;
+  }
+  #voucher_list{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+      }
+      img{
+        width: 200px;
+        margin-left: 10px;
+      }
+      .voucher{
+        border: 2px solid rgb(0, 110, 255);
+      }
+      h4{
+        text-align: center;
+      }
